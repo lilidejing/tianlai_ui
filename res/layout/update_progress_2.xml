@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/jinduText"
+        style="@style/text_16_666666"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:id="@+id/myView_ProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="440dp"
+            android:layout_height="7dip"
+            android:layout_gravity="center_vertical"
+            
+            android:progress="0" >
+        </ProgressBar>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/wanchengBtn"
+        style="@style/text_15_ffffff_sdw"
+        android:layout_width="174.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginTop="60dip"
+        android:background="#ff8b89ff"
+        android:gravity="center"
+        android:text="完成" />
+
+</LinearLayout>

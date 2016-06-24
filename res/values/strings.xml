@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">TLKGUI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+   
+     <string name="soft_update_true">确定</string>
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">更新提示</string>
+    <string name="soft_update_info">需要安装新软件</string>
+    <string name="soft_update_updatebtn">是</string>
+    <string name="soft_update_later">否</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="soft_down_info">需要下载该应用吗？</string>
+    <string name="soft_downting">正在下载</string>
+    
+    
+    <string name="language_settings" msgid="5292716747264442359">"Language"</string>
+    <string name="language_keyboard_settings_title" msgid="243220021717425813">"语言"</string>
+    <string name="language_settings_category" msgid="2288258489940617043">"语言设置"</string>
+    <string name="keyboard_settings_category" msgid="8275523930352487827">"键盘和输入法"</string>
+    <string name="phone_language" msgid="8870144109924299673">"Language"</string>
+    <string name="phone_language_summary" msgid="3871309445655554211"></string>
+    <string name="auto_replace" msgid="6199184757891937822">"自动替换"</string>
+    <string name="auto_replace_summary" msgid="370288728200084466">"更正错误输入的字词"</string>
+    <string name="auto_caps" msgid="6379232078052591265">"自动大写"</string>
+    <string name="auto_caps_summary" msgid="6358102538315261466">"将句首字母大写"</string>
+    <string name="auto_punctuate" msgid="4595367243950425833">"自动加标点"</string>
+    <string name="current_input_method" >"默认"</string>
+    <string name="keyboard_layout_default_label" msgid="2952672513543482165">"默认"</string>
+    
+   <!--  <string name="lock_settings_picker_title" msgid="1095755849152582712">"选择屏幕锁定方式"</string> -->
+   <!--  <string name="global_change_warning" product="tablet" msgid="8045013389464294039">"此设置会影响这台设备上的所有用户。"</string> -->
+   <!--  <string name="global_change_warning" product="default" msgid="2461264421590324675">"此设置会影响这部手机上的所有用户。"</string> -->
+     <string name="global_locale_change_title" msgid="5956281361384221451">"更改语言"</string>
+
+     
+     
+     
+     
+      <string name="app_notifications_switch_label" msgid="9124072219553687583">"显示通知"</string>
+    <string name="help_label" >"帮助"</string>
+    <string name="lock_settings_picker_title" >"选择屏幕锁定方式"</string>
+    <string name="display_settings" msgid="1708697328627382561">"Display Settings"</string>
+    <string name="screen_timeout_summary" msgid="327761329263064327">"无操作 <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g>后"</string>
+     <!-- Sound & display settings screen, setting option summary displaying the currently selected font size -->
+    <string name="summary_font_size" translatable="false">%1$s</string>
+     <string name="global_font_change_title" msgid="1887126466191012035">"更改字体大小"</string>
+     <string name="global_change_warning" product="tablet" msgid="8045013389464294039">"此设置会影响这台设备上的所有用户。"</string>
+    <string name="global_change_warning" product="default" msgid="2461264421590324675">"此设置会影响这部手机上的所有用户。"</string>
+     
+    <!-- $_rbox_$_modify_$_zhengyang: added for screen settings -->
+    <!-- Screen settings -->
+    <!-- Screen settings screen, section header for settings related to display output screen-->
+    <string name="screen_settings">屏幕设置</string>
+    <string name="screen_interface">显示输出接口</string>
+    <string name="screen_iface_lcd_title">LCD</string>
+    <string name="screen_iface_hdmi_title">HDMI</string>
+    <string name="screen_iface_vga_title">VGA</string>
+    <string name="screen_iface_ypbpr_title">YPbPr</string>
+    <string name="screen_iface_tv_title">TV</string>
+    <string name="screen_mode_title">Mode</string>
+    <string name="screen_mode_switch_title">Do you want to save this screen display settings?</string>
+    <string name="screen_control_ok_title">save</string>
+    <string name="screen_control_cancel_title">cancel</string>
+    <string name="screenscale">ScreenScale</string>
+    
+    
+   <!--  <string name="accelerometer_title" msgid="7854608399547349157">"自动旋转屏幕"</string>
+    <string name="accelerometer_summary_on" product="tablet" msgid="429982132339828942">"旋转设备时自动改变浏览模式"</string>
+    <string name="accelerometer_summary_on" product="default" msgid="1133737282813048021">"旋转手机时自动改变显示方向"</string>
+    <string name="accelerometer_summary_off" product="tablet" msgid="4781734213242521682">"旋转设备时自动切换浏览模式"</string>
+    <string name="accelerometer_summary_off" product="default" msgid="5485489363715740761">"旋转手机时自动改变显示方向"</string>
+    <string name="brightness" msgid="2354961343555249270">"亮度"</string>
+    <string name="brightness_summary" msgid="838917350127550703">"调整屏幕亮度"</string>
+    <string name="screen_timeout" msgid="4351334843529712571">"休眠"</string>
+    <string name="notification_pulse_title" msgid="1247988024534030629">"收到通知时指示灯闪烁"</string>
+    <string name="wallpaper_settings_title" msgid="5449180116365824625">"壁纸"</string>
+    <string name="wallpaper_settings_fragment_title" msgid="519078346877860129">"选择壁纸来源"</string>
+    <string name="screensaver_settings_title" msgid="3349790120327233241">"互动屏保"</string>
+    <string name="screensaver_settings_summary_either_long" msgid="2458481525925378465">"插入基座或休眠且正在充电时"</string>
+    <string name="screensaver_settings_summary_either_short" msgid="6140527286137331478">"以上任一情况"</string>
+    <string name="screensaver_settings_summary_sleep" msgid="9086186698140423493">"充电时"</string>
+    <string name="screensaver_settings_summary_dock" msgid="2072657401664633283">"插入基座时"</string>
+    <string name="screensaver_settings_summary_off" msgid="2481581696365146473">"已关闭"</string>
+    <string name="screensaver_settings_disabled_prompt" msgid="3857507943322777651">"要控制手机在插入基座时和/或休眠状态下的行为，请启用“互动屏保”。"</string>
+    <string name="screensaver_settings_when_to_dream" msgid="8352267826043957746">"何时启动"</string>
+    <string name="screensaver_settings_dream_start" msgid="4998187847985120168">"立即启动"</string>
+    <string name="screensaver_settings_button" msgid="7292214707625717013">"设置"</string>
+    <string name="automatic_brightness" msgid="5014143533884135461">"自动调整亮度"</string>
+    <string name="title_font_size" msgid="4405544325522105222">"字体大小"</string>
+    <string name="dialog_title_font_size" msgid="2231507851258955038">"字体大小"</string>
+     -->
+     
+     
+      
+    
+    
+     <string name="wifi_security_short_eap">802.1x</string>
+     <string name="wifi_security_eap">802.1x EAP</string>
+      <string name="wifi_security_short_wpa">WPA</string>
+     <string name="wifi_security_wpa">WPA PSK</string>
+      <string name="wifi_security_short_wpa2">WPA2</string>
+      <string name="wifi_security_wpa2">WPA2 PSK</string>
+      <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+     <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+     <string name="wifi_security_short_wep">WEP</string>
+        <string name="wifi_security_wep">WEP</string>
+     <string name="wifi_security_none">None</string>
+      <string name="wifi_not_in_range">Not in range</string>
+      <string name="wifi_disabled_password_failure">Authentication problem</string>
+     <string name="wifi_disabled_network_failure">Avoided poor Internet connection</string>
+      <string name="wifi_disabled_generic">Disabled</string>
+       <string name="wifi_remembered">Saved</string>
+         <string name="wifi_secured_first_item">Secured with <xliff:g id="wifi_security_short">%1$s</xliff:g></string>
+           <string name="wifi_secured_second_item">, secured with <xliff:g id="wifi_security_short">%1$s</xliff:g></string>
+            <string name="wifi_wps_available_first_item">WPS available</string>
+            <string name="wifi_wps_available_second_item">\u0020(WPS available)</string>
+            
+               <string name="wifi_title">WIFI</string>
+                 <string name="currentWifiInfoTitle">Net state</string>
+                 <string name="netStatusTitle">Network Status</string>
+                 <string name="netTypeTitle">Connect Format</string>
+                 <string name="netIpTitle">IP Address</string>
+           <string name="netMacTitle">MAC</string>
+           
+          <string name="wifi_settings">Wi-Fi</string>
+          <string name="wifi_failed_connect_message">Failed to connect to network</string>
+          <string name="wifi_failed_save_message">Failed to save network</string>
+          <string name="wifi_failed_forget_message">Failed to forget network</string>
+          <string name="wifi_fail_to_scan">Can\'t scan for networks</string>
+          <string name="wifi_wps_setup_title">Wi-Fi Protected Setup</string>
+          <string name="wifi_wps_failed">Couldn\'t start WPS, try again.</string>
+          <string name="wifi_wps_in_progress">WPS is already in progress and can take up to two minutes to complete</string>
+          <string name="wifi_wps_pin_output">Type the PIN  on the access point</string>
+          <string name="wifi_starting">Turning Wi-Fi on\u2026</string>
+          <string name="wifi_stopping">Turning off Wi-Fi\u2026</string>
+          <string name="wifi_empty_list_wifi_off">To see available networks, turn Wi-Fi on.</string>
+          <string name="eth_net_work">有线网络</string>
+          <string name="net_work_online">online</string>
+          <string name="wifi_net_work">WIFI</string>
+          <string name="no_net_work">Disconnected</string>
+          <string name="no_net_work_please">No network, please check the network connection</string>
+            <string name="proxy_port_label">Proxy port</string>
+             <string name="proxy_exclusionlist_label">Bypass proxy for</string>
+               <string name="proxy_hostname_label">Proxy hostname</string>
+             <string name="proxy_action_text">Done</string>
+              <string name="proxy_clear_text">Clear</string>
+              <string name="proxy_defaultView_text">Restore defaults</string>
+              <string name="proxy_error">Attention</string>
+               <string name="proxy_error_dismiss">OK</string>
+             <string name="proxy_error_invalid_host">The hostname you typed isn\'t valid.</string>
+              <string name="proxy_error_invalid_exclusion_list">The exclusion list you typed isn\'t properly formatted. Type a comma-separated list of excluded domains.</string>
+                 <string name="proxy_error_empty_port">You need to complete the port field.</string>
+              <string name="proxy_error_empty_host_set_port">The port field must be empty if the host field is empty.</string>
+              <string name="proxy_error_invalid_port">The port you typed isn\'t valid.</string>
+              <string name="wifi_setup_eap_not_supported">You can\'t configure an EAP Wi-Fi connection during setup. After setup, you can do that in Settings &gt; Wireless &amp; networks.</string>
+                 <string name="wifi_ssid">Network SSID</string>
+                     <string name="wifi_password">Password</string>
+                         <string name="wifi_show_password">Show password</string>
+                         <string name="wifi_security">Security</string>
+                          <string name="wifi_eap_method">EAP method</string>
+                              <string name="please_select_phase2">Phase 2 authentication</string>
+                                 <string name="wifi_eap_ca_cert">CA certificate</string>
+                                    <string name="wifi_eap_user_cert">User certificate</string>
+                                  <string name="wifi_eap_identity">Identity</string>
+               <string name="wifi_eap_anonymous">Anonymous identity</string>
+                  <string name="proxy_settings_title">Proxy settings</string>                 
+                 <string name="proxy_warning_limited_support">The HTTP proxy is used by the browser but may not be used by the other apps.</string>                  
+                   <string name="wifi_ip_settings">IP settings</string>  
+                      <string name="wifi_ip_address">IP address</string>
+                        <string name="wifi_gateway">Gateway</string>
+                         <string name="wifi_network_prefix_length">Network prefix length</string>
+                       <string name="wifi_dns1">DNS 1</string>
+                           <string name="wifi_dns2">DNS 2</string>
+                              <string name="wifi_add_network">Add network</string>
+                      <string name="wifi_show_advanced">Show advanced options</string>
+                       <string name="proxy_hostname_hint">proxy.example.com</string>
+                        <string name="proxy_port_hint" translatable="false">8080</string>
+                          <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
+                         <string name="wifi_ip_address_hint" translatable="false">192.168.1.128</string>
+                          <string name="wifi_gateway_hint" translatable="false">192.168.1.1</string>
+                           <string name="wifi_network_prefix_length_hint" translatable="false">24</string>
+                           <string name="wifi_dns1_hint" translatable="false">8.8.8.8</string>
+                            <string name="wifi_dns2_hint" translatable="false">8.8.4.4</string>
+                             <string name="wifi_save">Save</string>
+                              <string name="wifi_status">Status</string>
+                                <string name="wifi_speed">Link speed</string>
+                                
+                                
+                        <!-- Wi-Fi Settings --> <skip />
+    <!-- Used in the 1st-level settings screen to turn on Wi-Fi -->
+    <string name="wifi_quick_toggle_title">Wi\u2011Fi</string>
+    <!-- Used in the 1st-level settings screen as the turn-on summary -->
+    <string name="wifi_quick_toggle_summary">Turn on Wi\u2011Fi</string>
+    <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen  [CHAR LIMIT=20]-->
+   
+    <!-- Title of the Wi-fi settings screen -->
+    <string name="wifi_settings_category">Wi\u2011Fi settings</string>
+    <!-- Title of the Wi-fi settings entry in the left top level menu -->
+    <string name="wifi_settings_title">Wi\u2011Fi</string>
+    <!-- Summary text of the Wi-fi settings screen -->
+    <string name="wifi_settings_summary">Set up &amp; manage wireless access points</string>
+    <!-- Used in the 1st-level settings screen to turn on Wi-Fi  [CHAR LIMIT=60] -->
+    <string name="wifi_setup_wizard_title">Select Wi\u2011Fi</string>
+   
+    <!-- Summary text when Wi-Fi or bluetooth has error -->
+    <string name="wifi_error">Error</string>
+    <!-- Toast message when Wi-Fi or bluetooth is disallowed in airplane mode -->
+    <string name="wifi_in_airplane_mode">In Airplane mode</string>
+    
+    <!-- Checkbox title for option to notify user when open networks are nearby -->
+    <string name="wifi_notify_open_networks">Network notification</string>
+    <!-- Checkbox summary for option to notify user when open networks are nearby -->
+    <string name="wifi_notify_open_networks_summary">Notify me when an open network is available</string>
+    <!-- Checkbox title for option to toggle poor network detection -->
+    <string name="wifi_poor_network_detection">Avoid poor connections</string>
+    <!-- Checkbox summary for option to toggle poor network detection -->
+    <string name="wifi_poor_network_detection_summary">Don\'t use a Wi\u2011Fi network unless it has a good Internet connection</string>
+    <!-- Checkbox title for option to scan always available setting -->
+    <string name="wifi_scan_always_available">Scanning always available</string>
+    <!-- Checkbox summary for option to toggle scan always available setting -->
+    <string name="wifi_scan_always_available_summary">Let Google\'s location service and other apps scan for networks, even when Wi-Fi is off</string>
+    <!-- Preference title for option to install certificates -->
+    <string name="wifi_install_credentials">Install certificates</string>
+    <string name="wifi_scan_notify_text_location_on">To improve location accuracy and for other purposes, Google and other apps may scan for nearby networks, even when Wi-Fi is off. If you don\'t want this to happen, go to Advanced &gt; Scanning always available.</string>
+    <string name="wifi_scan_notify_text_location_off">Apps may scan for nearby networks, even when Wi-Fi is off. If you don\'t want this to happen, go to Advanced &gt; Scanning always available.</string>
+    <!-- Wifi scan always mode checkbox text -->
+    <string name="wifi_scan_notify_remember_choice">Don\'t show again</string>
+    <!-- Setting title for setting the wifi sleep policy. Do we keep Wi-Fi active when the screen turns off? -->
+    <string name="wifi_setting_sleep_policy_title">Keep Wi\u2011Fi on during sleep</string>
+    <!-- Generic error message when the sleep policy could not be set. -->
+    <string name="wifi_setting_sleep_policy_error">There was a problem changing the setting</string>
+    <!-- Checkbox title for option to toggle suspend power optimizations -->
+    <string name="wifi_suspend_optimizations">Wi\u2011Fi optimization</string>
+    <!-- Checkbox summary for option to toggle suspend power optimizations -->
+    <string name="wifi_suspend_optimizations_summary">Minimize battery usage when Wi\u2011Fi is on</string>
+    
+    <!-- Header for the list of wifi networks-->
+    <string name="wifi_access_points">Wi\u2011Fi networks</string>
+    <!-- Menu option to do WPS Push Button [CHAR LIMIT=25]-->
+    <string name="wifi_menu_wps_pbc">WPS Push Button</string>
+    <!-- Content description for menu button in Wifi setup. Not shown on the screen. [CHAR LIMIT=NONE] -->
+    <string name="wifi_menu_more_options">More options</string>
+    <!-- Menu option to do WPS Pin Entry [CHAR LIMIT=25]-->
+    <string name="wifi_menu_wps_pin">WPS Pin Entry</string>
+    <!-- Menu option to launch Wi-Fi Direct settings [CHAR LIMIT=20]-->
+    <string name="wifi_menu_p2p">Wi\u2011Fi Direct</string>
+    <!-- Menu option to scan Wi-Fi networks -->
+    <string name="wifi_menu_scan">Scan</string>
+    <!-- Menu option to Wi-Fi advanced settings -->
+    <string name="wifi_menu_advanced">Advanced</string>
+    <!-- Menu option to connect to a Wi-Fi network -->
+    <string name="wifi_menu_connect">Connect to network</string>
+    <!-- Menu option to delete a Wi-Fi network -->
+    <string name="wifi_menu_forget">Forget network</string>
+    <!-- Menu option to modify a Wi-Fi network configuration -->
+    <string name="wifi_menu_modify">Modify network</string>
+    
+    <!-- Wi-Fi settings. text displayed when Wi-Fi is on and network list is empty [CHAR LIMIT=50]-->
+    <string name="wifi_empty_list_wifi_on">Searching for Wi\u2011Fi networks\u2026</string>
+    <!-- Wifi Settings. text displayed when user has restriction DISALLOW_CONFIG_WIFI [CHAR LIMIT=NONE]-->
+    <string name="wifi_empty_list_user_restricted">You don\'t have permission to change the Wi\u2011Fi network.</string>
+    <!-- Wi-Fi settings. title for setup other network button [CHAR LIMIT=35]-->
+    <string name="wifi_other_network">Other network\u2026</string>
+    <!-- Wi-Fi settings. content description for more button [CHAR LIMIT=50]-->
+    <string name="wifi_more">More</string>
+    <!-- Wi-Fi settings. wps menu title [CHAR LIMIT=25]-->
+    <string name="wifi_setup_wps">Automatic setup (WPS)</string>
+    <!-- Message informing that wifi is required during setup [CHAR LIMIT=NONE] -->
+    <string name="wifi_required_info_text">To complete setup, your device needs access to Wi\u2011Fi. After setup, you can switch between mobile data and Wi\u2011Fi.</string>
+
+   
+    <!-- Message in WPS dialog at start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_setup_msg">Starting WPS\u2026</string>
+    <!-- Message in WPS dialog for PBC after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pbc">Press the Wi\u2011Fi Protected Setup button on your router. It may be called \"WPS\" or contain this symbol:</string>
+    <!-- Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin">Enter pin <xliff:g id="number">%1$s</xliff:g> on your Wi\u2011Fi router. The setup can take up to two minutes to complete.</string>
+    <!-- Text displayed when WPS succeeds [CHAR LIMIT=150] -->
+    <string name="wifi_wps_complete">WPS succeeded. Connecting to the network\u2026</string>
+    <!-- Text displayed when Wi-Fi is connected through WPS [CHAR LIMIT=150] -->
+    <string name="wifi_wps_connected">Connected to Wi\u2011Fi network <xliff:g id="network_name">%s</xliff:g></string>
+    
+    <!-- Text displayed when WPS fails to start [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_generic">WPS failed. Please try again in a few minutes.</string>
+    <!-- Text displayed when WPS fails due to WEP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_wep">The wireless router security setting (WEP) is not supported</string>
+     <!-- Text displayed when WPS fails to TKIP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_tkip">The wireless router security setting (TKIP) is not supported</string>
+     <!-- Text displayed when WPS fails due to authentication issues [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_auth">Authentication failure. Please try again.</string>
+     <!-- Text displayed when WPS fails due to another session [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_overlap">Another WPS session was detected. Please try again in a few minutes.</string>
+   
+    <!-- Hint for a text field to enter the SSID of a hidden wifi network. [CHAR LIMIT=35] -->
+    <string name="wifi_ssid_hint">Enter the SSID</string>
+   
+    <!-- Label for the signal strength of the connection -->
+    <string name="wifi_signal">Signal strength</string>
+   
+    <!-- Hint for unchanged fields -->
+    <string name="wifi_unchanged">(unchanged)</string>
+    <!-- Hint for unspecified fields -->
+    <string name="wifi_unspecified">(unspecified)</string>
+    
+
+    <string name="wifi_scan_always_turnon_message">To improve location accuracy and for other purposes, <xliff:g id="app_name">%1$s</xliff:g> wants to turn on network scanning, even when Wi-Fi is off.\n\nAllow this for all apps that want to scan?</string>
+    <string name="wifi_scan_always_confirm_allow">Allow</string>
+    <string name="wifi_scan_always_confirm_deny">Deny</string>
+
+    <!-- Button label to connect to a Wi-Fi network -->
+    <string name="wifi_connect">Connect</string>
+    <!-- Failured notification for connect -->
+   
+    <!-- Button label to delete a Wi-Fi network -->
+    <string name="wifi_forget">Forget</string>
+   
+    <!-- Button label to dismiss the dialog -->
+    <string name="wifi_cancel">Cancel</string>
+    <!-- Button for skipping a step after having been warned of a potential concern [CHAR LIMIT=30] -->
+    <string name="wifi_skip_anyway">Skip anyway</string>
+    <!-- Button for going to the previous screen or step [CHAR LIMIT=20] -->
+    <string name="wifi_dont_skip">Don\'t skip</string>
+
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (tablet) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="tablet">WARNING: You may incur extra carrier data charges.\n\nDevice setup can require significant network activity.</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (phone) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="default">WARNING: You may incur extra carrier data charges.\n\nPhone setup can require significant network activity.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (tablet) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="tablet">WARNING: Until you have an internet connection, the device won\'t be able to verify that your software is up to date.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (phone) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="default">WARNING: Until you have an internet connection, the phone won\'t be able to verify that your software is up to date.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (tablet) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="tablet">The device was unable to connect to this Wi\u2011Fi network.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (phone) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="default">The phone was unable to connect to this Wi\u2011Fi network.</string>
+
+    <!-- Wi-Fi Advanced Settings --> <skip />
+    <!-- Wi-Fi settings screen, advanced, settings section.  This is a header shown above advanced wifi settings. -->
+    <string name="wifi_advanced_titlebar">Advanced Wi\u2011Fi</string>
+    <!-- Wi-Fi settings screen, setting title for setting the band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_frequency_band_title">Wi\u2011Fi frequency band</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_frequency_band_summary">Specify the frequency range of operation</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_frequency_band_error">There was a problem setting the frequency band.</string>
+    <!-- Wi-Fi settings screen, advanced, title of the item to show the Wi-Fi device's MAC address. -->
+    <string name="wifi_advanced_mac_address_title">MAC address</string>
+    <!-- Title of the screen to adjust IP settings -->
+    <!-- Wi-Fi settings screen, advanced, title of the item to show the Wi-Fi device's current IP address. -->
+    <string name="wifi_advanced_ip_address_title">IP address</string>
+
+    <!-- Wifi Advanced settings.  Used as a label under the shortcut icon that goes to Wifi advanced settings. [CHAR LIMIT=20]-->
+    <string name="wifi_advanced_settings_label">IP settings</string>
+    <!-- Menu item to save the IP settings -->
+    <string name="wifi_ip_settings_menu_save">Save</string>
+    <!-- Menu ietm to cancel the IP settings -->
+    <string name="wifi_ip_settings_menu_cancel">Cancel</string>
+    <!-- Error message if the IP address is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_ip_address">Type a valid IP address.</string>
+    <!-- Error message if the gateway is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_gateway">Type a valid gateway address.</string>
+    <!-- Error message if the dns is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_dns">Type a valid DNS address.</string>
+    <!-- Error message if the network prefix length is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Type a network prefix length between 0 and 32.</string>
+   
+
+    <!-- Wi-Fi p2p / Wi-Fi Direct settings -->
+    <!-- Used in the 1st-level settings screen to launch Wi-fi Direct settings [CHAR LIMIT=25] -->
+    <string name="wifi_p2p_settings_title">Wi\u2011Fi Direct</string>
+    <string name="wifi_p2p_device_info">Device information</string>
+    <string name="wifi_p2p_persist_network">Remember this connection</string>
+    <!-- Menu option to discover peers-->
+    <string name="wifi_p2p_menu_search">Search for devices</string>
+    <!-- Menu option when discovery is in progress [CHAR LIMIT=25] -->
+    <string name="wifi_p2p_menu_searching">Searching\u2026</string>
+    <!-- Menu option to Rename-->
+    <string name="wifi_p2p_menu_rename">Rename device</string>
+    <!-- Title for available p2p devices -->
+    <string name="wifi_p2p_peer_devices">Peer devices</string>
+    <!-- Title for remembered p2p groups -->
+    <string name="wifi_p2p_remembered_groups">Remembered groups</string>
+    <!-- Toast text for a failed connection initiation -->
+    <string name="wifi_p2p_failed_connect_message">Couldn\'t connect.</string>
+    <!-- Message text for failure to rename -->
+    <string name="wifi_p2p_failed_rename_message">Failed to rename device.</string>
+    <!-- Title for disconnect dialog -->
+    <string name="wifi_p2p_disconnect_title">Disconnect?</string>
+    <!-- Message text for disconnection from one device-->
+    <string name="wifi_p2p_disconnect_message">If you disconnect, your connection with <xliff:g id="peer_name">%1$s</xliff:g> will end.</string>
+    <!-- Message text for disconnection from multiple devices-->
+    <string name="wifi_p2p_disconnect_multiple_message">If you disconnect, your connection with <xliff:g id="peer_name">%1$s</xliff:g> and <xliff:g id="peer_count">%2$s</xliff:g> other devices will end.</string>
+    <!-- Title for cancel connect dialog -->
+    <string name="wifi_p2p_cancel_connect_title">Cancel invitation?</string>
+    <!-- Message text for disconnection from one device-->
+    <string name="wifi_p2p_cancel_connect_message">Do you want to cancel invitation to connect with <xliff:g id="peer_name">%1$s</xliff:g>?</string>
+    <!-- Message text for remembered group deletion-->
+    <string name="wifi_p2p_delete_group_message">Forget this group?</string>
+
+    <!-- Wifi AP settings-->
+    <!-- Label for wifi tether checkbox. Toggles Access Point on/off -->
+    <string name="wifi_tether_checkbox_text">Portable Wi\u2011Fi hotspot</string>
+    <!-- Summary text when turning hotspot on -->
+    <string name="wifi_tether_starting">Turning hotspot on\u2026</string>
+    <!-- Summary text when turning hotspot off -->
+    <string name="wifi_tether_stopping">Turning off hotspot\u2026</string>
+    <!-- Subtext for wifi tether checkbox on success -->
+    <string name="wifi_tether_enabled_subtext">Portable hotspot <xliff:g id="network_ssid">%1$s</xliff:g> active</string>
+    <!-- Subtext for wifi tether checkbox on failure -->
+    <string name="wifi_tether_failed_subtext">Portable Wi\u2011Fi hotspot error</string>
+    <!-- Used to open the ssid and security dialog for Wifi Access Point -->
+    <string name="wifi_tether_configure_ap_text">Set up Wi\u2011Fi hotspot</string>
+    <!-- Subtext on configuration preference to indicate SSID and security chosen -->
+    <string name="wifi_tether_configure_subtext"><xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g> portable Wi\u2011Fi hotspot</string>
+    <!-- Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>         
+                                
+                             
+     <string-array name="wifi_signal">
+        <item>Poor</item>
+        <item>Fair</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+                       <string name="tianlaikge_title">USING</string>
+        <string name="tianlaikge_kaiqiwomen">Connect people with joy </string>
+        <string name="tianlaikge_zhubopingdao">Anchor channel</string>
+        <string name="tianlaikge_diangetai">Music library</string>
+        <string name="tianlaikge_gerenzhuye">Homepage</string>
+        <string name="tianlaikge_huodong">Events</string>
+        <string name="tianlaikge_xiazaishoujiban">Download mobile version</string>
+        <string name="tianlaikge_mangguotv">Mango TV</string>
+        <string name="tianlaikge_paihangbang">Top list</string>
+        <string name="tianlaikge_shangchang">Accessory store</string>
+        <string name="tianlaikge_shezhi">Settings</string>
+        <string name="tianlaikge_guanji">Power off</string>
+        
+         <!-- <string name="tianlaikge_title">天籁K歌</string>
+        <string name="tianlaikge_kaiqiwomen">开启我们的快乐之旅</string>
+        <string name="tianlaikge_zhubopingdao">主播频道</string>
+        <string name="tianlaikge_diangetai">点歌台</string>
+        <string name="tianlaikge_gerenzhuye">个人主页</string>
+        <string name="tianlaikge_huodong">活动</string>
+        <string name="tianlaikge_xiazaishoujiban">下载手机版</string>
+        <string name="tianlaikge_paihangbang">排行榜</string>
+        <string name="tianlaikge_shangchang">商场</string>
+        <string name="tianlaikge_shezhi">设置</string>
+        <string name="tianlaikge_guanji">关机</string>
+         -->
+        <string name="displaysettings">DisplaySettings</string>  
+        <string name="hdmi_output_mode">HDMI Mode</string>  
+        
+       <string name="love_tip">Tip</string>
+        <string name="confirm_pwoeroff">Are you sure you want to close it off？</string>
+        <string name="confirm_ok">OK</string>
+        <string name="confirm_cancel">Cancel</string>
+        <string name="going_to_poweroff">Ready to shut down...</string>
+               
+        <!-- 后面优化wifi连接刷新加的 -->
+        <string name="hasbeenconnected">Connected</string>
+        
+        <!-- 后面优化显示设置界面加的 -->
+        <string name="display_settings_title_hou">Display Settings</string>
+        
+        <!-- 后面优化对话框加的 -->
+        <string name="menu_settings">Settings</string>
+        <string name="title_alert">提示</string>
+       <string name="ok">OK</string>
+       <string name="cancel">Cancel</string>
+       
+           <!-- 后面优化下载手机版加的 -->
+           <string name="bind_mobile">Download Mobile Terminal</string>
+           <string name="pleasescanerweima">Please Sweep The Two-Dimensional Code Download</string>
+     <!--  <string name="pleasescanerweima">Please link USING account-USING TV account  to scan the QR Code</string> -->
+      
+      <!-- 主界面判断wifi网络是否连接 ,当前网络不可用！-->
+      <string name="no_wifi_connected">Network link is not found, please check your network connection or try again</string>
+      <string name="gotosetwifi">Set</string>
+      <string name="second_wifi_sected">Please select a network connection</string>
+      <string name="love_tip_inputpassword">Input password</string>
+      <string name="message_inputpassword_start">Please input the password of</string>
+      <string name="message_inputpassword_end"></string>
+      
+      <!--  -->
+</resources>

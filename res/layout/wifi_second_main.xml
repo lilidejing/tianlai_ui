@@ -1,0 +1,292 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_bg"
+    tools:context=".DisplayActivity" 
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/titleLayout_second"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dip" >
+
+      <!--   <TextView
+            android:id="@+id/title_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/setting_wifi" /> -->
+
+        <TextView
+            android:id="@+id/wifi_title_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:text="@string/second_wifi_sected"
+            android:textColor="#ffffffff"
+            android:textSize="40dip" />
+    </LinearLayout>
+
+   <!--  <View
+        android:id="@+id/titleDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/titleLayout"
+        android:background="#76a0a0a0" /> -->
+
+   <!--  <LinearLayout
+        android:id="@+id/wifiInfoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleDivider"
+        android:layout_marginLeft="30dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/currentWifiInfoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/currentWifiInfoTitle"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="500dp"
+            android:layout_height="1px"
+            android:layout_below="@+id/titleLayout"
+            android:background="#76a0a0a0" />
+
+        <LinearLayout
+            android:id="@+id/netStatusLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/netStatusTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dip"
+                android:text="@string/netStatusTitle"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/netStatusContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dip"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/titleLayout"
+            android:background="#76a0a0a0" />
+
+        <LinearLayout
+            android:id="@+id/netTypeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/netTypeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dip"
+                android:text="@string/netTypeTitle"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/netTypeContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dip"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/titleLayout"
+            android:background="#76a0a0a0" />
+
+        <LinearLayout
+            android:id="@+id/netIpLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/netIpTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dip"
+                android:text="@string/netIpTitle"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/netIpContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dip"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/titleLayout"
+            android:background="#76a0a0a0" />
+
+        <LinearLayout
+            android:id="@+id/netMacLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/netMacTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dip"
+                android:text="@string/netMacTitle"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/netMacContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dip"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/titleLayout"
+            android:background="#76a0a0a0" />
+    </LinearLayout> -->
+
+    <LinearLayout
+        android:id="@+id/wifi_list_layout_second"
+        android:layout_width="fill_parent"
+        android:layout_height="550.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/titleLayout_second"
+        android:layout_marginTop="1dip"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:gravity="center"
+         >
+
+        <!-- android:divider="#00ffffff" -->
+       <!--  <LinearLayout
+            android:id="@+id/eth_linear"
+            android:layout_width="fill_parent"
+            android:layout_height="80.0dip"
+            android:background="@drawable/button_bg_selector"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingTop="1.0dip" >
+
+            <ImageView
+                android:layout_width="64.0dip"
+                android:layout_height="80.0dip"
+                android:paddingLeft="24.0dip"
+                android:src="@drawable/tui_ic_wifi_signal_4" />
+
+            <TextView
+                android:id="@+id/eth_text"
+                android:layout_width="408.0dip"
+                android:layout_height="64.0dip"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="marquee"
+                android:gravity="left"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingLeft="32.0dip"
+                android:paddingRight="24.0dip"
+                android:paddingTop="20.0dip"
+                android:singleLine="true"
+                android:text="@string/wifi_settings"
+                android:textColor="#ffffffff"
+                android:textSize="29.0sp" />
+
+            <ImageView
+                android:id="@+id/eth_connect"
+                android:layout_width="64.0dip"
+                android:layout_height="80.0dip"
+                android:paddingRight="24.0dip"
+                android:src="@drawable/eth_unconnect" 
+                android:layout_marginLeft="720dip"/>
+        </LinearLayout> -->
+
+        <!-- <TextView
+            android:layout_width="544.0dip"
+            android:layout_height="12.0dip" /> -->
+
+       
+
+        <ListView
+            android:id="@+id/wifi_listview_second"
+            android:layout_width="700dip"
+            android:layout_height="500.0dip"
+            android:gravity="left"
+            android:divider="#00000000"  
+            android:listSelector="@drawable/listview_selector" 
+            android:background="@drawable/wifi_bg_second"/>
+        
+        
+    </LinearLayout>
+    
+   <RelativeLayout 
+       android:id="@+id/second_image_view"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_below="@+id/wifi_list_layout_second"
+       >
+       
+       <ImageView 
+            android:id="@+id/downImage_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            
+            android:background="@drawable/down_second"
+            
+            />
+   </RelativeLayout>
+    
+    
+    
+    <TextView
+            android:id="@+id/wifi_statd_second"
+            android:layout_width="fill_parent"
+            android:layout_height="320.0dip"
+            android:gravity="center"
+            android:paddingLeft="64.0dip"
+            android:paddingTop="8.0dip"
+            android:textColor="#ffFFFFFF"
+            android:textSize="33.0sp" 
+            android:layout_marginTop="50dip"
+            android:layout_below="@+id/titleLayout_second"/> 
+
+</RelativeLayout>

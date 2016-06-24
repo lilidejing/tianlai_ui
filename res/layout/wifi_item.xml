@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifi_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/wifiIcon"
+        android:layout_width="36dip"
+        android:layout_height="30dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/hotspot_icon" />
+
+    <LinearLayout
+        android:id="@+id/wifilayout_second_list"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:layout_marginLeft="28dip"
+        android:layout_toRightOf="@+id/wifiIcon" >
+
+        <TextView
+            android:id="@+id/wifiSsidText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="#ffffff"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/wifilayout_second_list"
+        android:layout_marginLeft="60dip" >
+
+        <TextView
+            android:id="@+id/wifiSsidStateText_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="10dip"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/wifiIconSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dip"
+            android:layout_marginTop="25dip"
+            android:background="@drawable/wificonnect"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</RelativeLayout>

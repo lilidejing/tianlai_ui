@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    
+    <ImageView
+        android:id="@+id/wifi_image"
+        android:layout_width="40dip"
+        android:layout_height="34dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="20dip"
+        android:src="@drawable/tui_ic_wifi_lock_signal_2" />
+    
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:divider="#00ffffff"
+        android:orientation="vertical"
+        android:paddingBottom="8.0dip"
+        android:paddingTop="5.0dip"
+        android:visibility="visible"
+        android:layout_alignParentRight="@+id/wifi_image" 
+        android:layout_marginLeft="50dip">
+
+        <TextView
+            android:id="@+id/wifi_point_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:paddingLeft="48.0dip"
+            android:textColor="#ffffffff"
+            android:textSize="25.0sp" />
+
+        <TextView
+            android:id="@+id/wifi_point_wps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:paddingLeft="48.0dip"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <!-- <ImageView
+        android:id="@+id/wifi_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="30.0dip"
+        android:paddingTop="15.0dip"
+        android:src="@drawable/tui_ic_wifi_lock_signal_2" /> -->
+
+</RelativeLayout>

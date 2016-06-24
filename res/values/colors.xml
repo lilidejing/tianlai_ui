@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="lightblue">#5AB5F0</color>
+    <color name="green">#ff00ff00</color>
+    <color name="red">#ffff0000</color>
+    <color name="higtlight">#ff0078f0</color>
+    <color name="durationtext">#ff7d7d7d</color>
+    <color name="background">#ffc3ddea</color>
+    <color name="yellow">#ffffcc00</color>
+    <color name="title">#ff274462</color>
+     <color name="gg">#66ffffff</color>
+    <color name="blues">#0099FF</color>
+    <color name="vv">#cccccc</color>
+     <color name="zise">#996699</color>
+     <color name="gray">#3A312A</color>
+     
+   
+
+    <color name="memory_used">#F00</color>
+    <color name="memory_avail">#333333</color>
+    <color name="memory_apps_usage">#77831A</color>
+    <color name="memory_downloads">#476093</color>
+    <color name="memory_dcim">#793A7F</color>
+    <color name="memory_music">#8E562A</color>
+    <color name="memory_cache">#479392</color>
+    <color name="memory_misc">#7C3030</color>
+    <color name="memory_user_light">#479392</color>
+    <color name="memory_user_dark">#316665</color>
+
+    <color name="crypt_keeper_clock_background">#ff9a9a9a</color>
+    <color name="crypt_keeper_clock_foreground">#ff666666</color>
+    <color name="crypt_keeper_clock_am_pm">#ff9a9a9a</color>
+
+    <color name="divider_color">#20ffffff</color>
+    <color name="title_color">@android:color/holo_blue_light</color>
+    <color name="setup_divider_color">#333333</color>
+     
+     
+     
+</resources>
